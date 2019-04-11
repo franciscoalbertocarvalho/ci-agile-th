@@ -1,5 +1,10 @@
 language: node_js
 node_js:
   - "6.1"
-  - "5.12.0"
   - "5.11.1"
+  - "5.12.0"
+deploy:
+  provider: heroku
+  api_key:
+    secure: "24fd4803-cf97-4c2b-9d39-fb4528f368e3"
+  app: ci-agile-th
